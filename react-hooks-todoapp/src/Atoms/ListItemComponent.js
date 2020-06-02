@@ -1,8 +1,15 @@
 import React, {useState} from 'react';
 
-const ListItemComponent = () =>{
+const ListItemComponent = (props) =>{
+    const demo = props.value.map((data,index) => {
+        return (
+            <p onClick = {() => props.click(data.id)} key={index}>{data.name}</p>
+        )
+    })
     return(
-        <p>here</p>
+       <>
+        {demo}
+       </>
     )
 }
 
