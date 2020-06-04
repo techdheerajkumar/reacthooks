@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+}
+.todo-container .btn-container .btn{
+  margin-right: 15px;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background: #ccc;
+  padding: 15px;
+}
+.header ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.header ul li{
+  display: inline-block;
+}
+.page-wrapper{
+  padding: 60px 0;
+}

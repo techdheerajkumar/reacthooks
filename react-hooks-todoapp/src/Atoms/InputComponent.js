@@ -6,8 +6,9 @@ const InputComponent = (props) => {
     return (
         <input 
         type="text"
-        placeholder = "enter here"
+        placeholder = {props.placeHolder}
         onChange = {props.change}  
+        className = "form-group"
       />
     )
 }
