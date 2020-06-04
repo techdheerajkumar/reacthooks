@@ -8,7 +8,6 @@ const InputComponent = (props) => {
         type="text"
         placeholder = "enter here"
         onChange = {props.change}  
-        value = {props.emptyVal}      
       />
     )
 }

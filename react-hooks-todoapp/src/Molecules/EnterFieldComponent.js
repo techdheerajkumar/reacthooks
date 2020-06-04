@@ -38,7 +38,7 @@ const EnterField = () => {
                 change={changeHandler}
                 emptyVal = {useInputValue.name}
             />
-            <ButtonComponent click={clickHandler} />
+            <ButtonComponent click={clickHandler} btnName = {"Add a Todo"}/>
             <ListItem value={storeValue} click={deleteHandler} />
         </div>
     )
