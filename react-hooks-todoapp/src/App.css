@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
+body{
+  height: 100vh;
+  background: #ebebeb;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -49,15 +53,28 @@
   flex-direction: column;
 }
 .header{
-  background: #ccc;
+  background: #fff;
   padding: 15px;
+  box-shadow: 0 4px 4px #ccc;
 }
 .header ul{
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 0;
 }
 .header ul li{
   display: inline-block;
+  margin: 0 15px;
+}
+.header ul li a{
+  color: #282c34;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  padding: 14px 0;
+}
+.header ul li a.active{
+  border-bottom: 4px solid #282c34;;
+
 }
 .page-wrapper{
   padding: 60px 0;
